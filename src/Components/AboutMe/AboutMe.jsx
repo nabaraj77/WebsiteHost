@@ -29,7 +29,7 @@ const AboutMe = () => {
           </h1>
         </div>
         <div className="des">
-          Energetic Engineer having good skills in HTML, CSS, JavaScript,
+          Energetic Nepali Engineer having good skills in HTML, CSS, JavaScript,
           ReactJs.
         </div>
       </div>
