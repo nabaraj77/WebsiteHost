@@ -1,0 +1,67 @@
+.path {
+  z-index: -1;
+  margin-top: -5rem;
+}
+
+@media screen and (max-width: 863px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proj3 {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .projects {
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .proj1 {
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+  }
+  .proj2 {
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+  }
+  .coverProj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+.weather {
+  width: 8rem;
+  margin: auto;
+}
+.meme {
+  width: 8rem;
+  margin: auto;
+}
+.toDo {
+  width: 12rem;
+  margin: auto;
+}
+.coverProj {
+  display: flex;
+  justify-content: space-evenly;
+}
+.proj1 {
+  margin-right: 2rem;
+}
+.proj2 {
+  margin-right: 2rem;
+}
